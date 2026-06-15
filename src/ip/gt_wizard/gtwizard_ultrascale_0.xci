@@ -15,7 +15,7 @@
         "TX_ENABLE": [ { "value": "true", "resolve_type": "generated", "format": "bool", "enabled": false, "usage": "all" } ],
         "CHANNEL_ENABLE": [ { "value": "X0Y14 X0Y13", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
         "TX_MASTER_CHANNEL": [ { "value": "X0Y13", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
-        "RX_MASTER_CHANNEL": [ { "value": "X0Y14", "resolve_type": "user", "usage": "all" } ],
+        "RX_MASTER_CHANNEL": [ { "value": "X0Y14", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
         "INTERNAL_TOTAL_NUM_CHANNELS": [ { "value": "2", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
         "INTERNAL_TOTAL_NUM_COMMONS": [ { "value": "1", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
         "LOCATE_COMMON": [ { "value": "CORE", "resolve_type": "user", "usage": "all" } ],
@@ -170,8 +170,8 @@
         "PRESET": [ { "value": "GTH-3G_SDI", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
         "INTERNAL_PRESET": [ { "value": "3G_SDI", "resolve_type": "user", "usage": "all" } ],
         "INTERNAL_PORT_USAGE_UPDATED": [ { "value": "0", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
-        "INTERNAL_PORT_ENABLEMENT_UPDATED": [ { "value": "37", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
-        "INTERNAL_CHANNEL_SITES_UPDATED": [ { "value": "11", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "INTERNAL_PORT_ENABLEMENT_UPDATED": [ { "value": "131", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
+        "INTERNAL_CHANNEL_SITES_UPDATED": [ { "value": "41", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
         "INTERNAL_CHANNEL_COLUMN_LOC_MAX": [ { "value": "96", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
         "INTERNAL_RX_COMMA_PRESET_UPDATE": [ { "value": "3", "resolve_type": "generated", "format": "long", "enabled": false, "usage": "all" } ],
         "INTERNAL_UPDATE_IP_SYMBOL_drpclk_in": [ { "value": "false", "resolve_type": "generated", "format": "bool", "enabled": false, "usage": "all" } ],
@@ -827,9 +827,9 @@
         "BOARD_CONNECTIONS": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
         "DEVICE": [ { "value": "xcku15p", "resolve_type": "generated", "usage": "all" } ],
         "PACKAGE": [ { "value": "ffve1517", "resolve_type": "generated", "usage": "all" } ],
-        "PREFHDL": [ { "value": "VHDL", "resolve_type": "generated", "usage": "all" } ],
+        "PREFHDL": [ { "value": "VERILOG", "resolve_type": "generated", "usage": "all" } ],
         "SILICON_REVISION": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
-        "SIMULATOR_LANGUAGE": [ { "value": "VHDL", "resolve_type": "generated", "usage": "all" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED", "resolve_type": "generated", "usage": "all" } ],
         "SPEEDGRADE": [ { "value": "-2", "resolve_type": "generated", "usage": "all" } ],
         "STATIC_POWER": [ { "value": "", "resolve_type": "generated", "usage": "all" } ],
         "TEMPERATURE_GRADE": [ { "value": "I", "resolve_type": "generated", "usage": "all" } ]
@@ -903,5 +903,5 @@
       }
     }
   },
-  "checksum": "77dfef87"
+  "checksum": "74c49b6c"
 }
